@@ -72,7 +72,9 @@ body{
 
 .akce-background {
                  background-image: URL(imgs/2.png);                                        
-                     background-repeat: no-repeat;
+                     background-attachment: fixed;
+                     width: 100%;
+                     height: 100%;
 }
 
 .galerie-background {
@@ -172,7 +174,7 @@ hlavni-container-akce {
 
 
 .hlavni-container{
-                           height: 500px;                 
+                           height: 450px;                 
                            
 }
 
