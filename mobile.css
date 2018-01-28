@@ -1,0 +1,211 @@
+/* CSS document */
+
+/*Site's upper part.*/
+
+body{
+  margin: 0;
+  font-family: sans-serif;
+}
+
+
+#main1{
+  color: white;
+  background: #343434;
+  height: 3rem;
+}
+
+#main1-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.main1-tags {
+  height: 5rem;
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.main-divisor {
+  height: 50px;
+  background: #343434;
+}
+
+.mains a:link{
+  color: white;
+  text-decoration: none;
+}
+
+.mains a:visited{
+  color: white;
+}
+
+.mains a:hover{
+  color: #009999;
+}
+
+/*Site's middle part in "Akce" and "Galerie" section.*/
+
+.right  p {
+  text-indent: 50px;
+  padding: 7.5% 15% 0% 15%;
+}
+
+
+.left  p {
+  text-indent: 50px;
+  padding: 7.5% 15% 0% 15%;
+}
+
+
+.divisor {
+  height: 10px;
+}
+
+.main-image {
+  width: 100%;
+  display: block;
+}
+
+.images-sied-by-side {
+   display: block;
+ }
+
+
+#hlavni-container-akce{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-indent: 50px;
+  overflow: hidden;
+}
+
+/*Site's middle part in "Ůvod" section.*/
+
+
+#hlavni-container-uvod{
+  height: 500px;
+}
+
+#uvod-text-container {
+   width: 60%;
+   margin: 5% 0% 0% 20%;
+   font-size: 130%;
+   box-sizing: border-box;
+   text-indent: 50px;
+}
+
+.hlavni-container h1 {
+  text-align: center;
+  color: #008080;
+  font-size: 50px;
+  font-weight: normal;
+  word-spacing: 10px;
+  letter-spacing: 5px;
+  padding-top: 5%;
+  margin: 0;
+}
+
+.hlavni-container A:link {
+  color: #008080;
+  text-decoration: none;
+}
+
+.hlavni-container A:visited {
+  color: #008080;
+}
+
+.hlavni-container A:hover {
+  color: #009999;
+  text-decoration: underline;
+}
+
+.second-hlavni-container {
+  background: #343434;
+  color: white;
+}
+
+/*Site's middle part in "Kontakt" section.*/
+
+#konakt-text-container{
+   font-size: 130%;
+   padding-left: 5%;
+   padding-right: 2.5%;
+}
+
+#konakt-text-container A:link {
+  color: #008080;
+}
+
+#konakt-text-container A:visited {
+   color: #008080;
+}
+
+#konakt-text-container A:hover {
+   color: #009999;
+}
+
+#konakt-text-container p:nth-of-type(1) {
+   padding-top: 1%;
+}
+
+#konakt-text-container img{
+   padding-right: 5%;
+   padding-bottom: 5%;
+}
+
+/*Site's bottom part.*/
+
+.footer-main {
+   background: #444444;
+   height: 300px;
+   color: white;
+}
+
+.footer-upper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+  overflow: hidden;
+}
+
+.footer-subdivisions {
+  padding: 12.5% 0% 0% 20%;
+}
+
+.footer-subdivisions-thanks {
+  padding: 6.25% 5% 0% 10%;
+}
+
+.footer-subdivisions A:link {
+   text-decoration: none;
+   color: #009999;
+}
+
+.footer-subdivisions A:visited{
+  color: #009999;
+}
+
+.footer-subdivisions A:hover{
+  color: #008080;
+}
+
+.footer-admin {
+  padding: 3.5% 0% 0% 20%;
+}
+
+#main3 {
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+}
+
+#main3 A:link {
+  text-decoration: none;
+  color: #009999;
+}
+
+#main3 A:visited{
+          color: #009999;
+}
+
+#main3 A:hover{
+        color: #008080;
+}

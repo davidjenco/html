@@ -1,15 +1,17 @@
 /* CSS Document */
 
+/*Site's upper part.*/
+
 body{
-     margin: 0;
-     font-family: sans-serif;
+  margin: 0;
+  font-family: sans-serif;
 }
 
 
 #main1{
-      color: white;
-      background: #343434;
-      height: 5rem;
+  color: white;
+  background: #343434;
+  height: 5rem;
 }
 
 #main1-container {
@@ -23,40 +25,35 @@ body{
   padding-top: 2rem;
 }
 
-#main3{
-       height: 50px;
-       background: #343434;
-       color: white;
-       display: grid;
+.main-divisor {
+  height: 50px;
+  background: #343434;
 }
 
 .mains a:link{
-        color: white;
-        text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 
 .mains a:visited{
-          color: white;
+  color: white;
 }
 
 .mains a:hover{
-        color: #009999;
+  color: #009999;
 }
 
-
-
-
-
+/*Site's middle part in "Akce" and "Galerie" section.*/
 
 .right  p {
-                  text-indent: 50px;
-                  padding: 7.5% 15% 0% 15%;
+  text-indent: 50px;
+  padding: 7.5% 15% 0% 15%;
 }
 
 
 .left  p {
-                  text-indent: 50px;
-                  padding: 7.5% 15% 0% 15%;
+  text-indent: 50px;
+  padding: 7.5% 15% 0% 15%;
 }
 
 
@@ -74,134 +71,93 @@ body{
  }
 
 
-
-
-
-.hlavni-container-akce{
+#hlavni-container-akce{
   display: grid;
   grid-template-columns: 1fr 1fr;
   text-indent: 50px;
   overflow: hidden;
 }
 
-.hlavni-container-akce h1 {
-                      text-align: center;
-                      color: #008080;
-                      font-size: 50px;
-                      font-weight: normal;
-                      word-spacing: 10px;
-                      letter-spacing: 5px;
-                      padding-top: 5%;
-}
+/*Site's middle part in "Ůvod" section.*/
 
 
-.hlavni-container-akce A:link {
-                            color: #008080;
-                            text-decoration: none;
-}
-
-.hlavni-container-akce A:visited {
-                            color: #009999;
-}
-
-.hlavni-container-akce A:hover {
-                            color: #008080;
-}
-
-
-
-
-.hlavni-container{
+#hlavni-container-uvod{
   height: 500px;
 }
 
+#uvod-text-container {
+   width: 60%;
+   margin: 5% 0% 0% 20%;
+   font-size: 130%;
+   box-sizing: border-box;
+   text-indent: 50px;
+}
 
 .hlavni-container h1 {
-                      text-align: center;
-                      color: #008080;
-                      font-size: 50px;
-                      font-weight: normal;
-                      word-spacing: 10px;
-                      letter-spacing: 5px;
-                      padding-top: 5%;
+  text-align: center;
+  color: #008080;
+  font-size: 50px;
+  font-weight: normal;
+  word-spacing: 10px;
+  letter-spacing: 5px;
+  padding-top: 5%;
+  margin: 0;
 }
 
 .hlavni-container A:link {
-                            color: #008080;
-                            text-decoration: none;
+  color: #008080;
+  text-decoration: none;
 }
 
 .hlavni-container A:visited {
-                            color: #009999;
+  color: #008080;
 }
 
 .hlavni-container A:hover {
-                            color: #008080;
+  color: #009999;
+  text-decoration: underline;
 }
-
-.texts {
-       text-indent: 50px;
-}
-
-
 
 .second-hlavni-container {
-                          background: #343434;
-                          color: white;
+  background: #343434;
+  color: white;
 }
 
-
-
-
-
-
-
-
-
-
+/*Site's middle part in "Kontakt" section.*/
 
 #konakt-text-container{
-                       font-size: 130%;
-                       padding-left: 5%;
-                       padding-right: 2.5%;
+   font-size: 130%;
+   padding-left: 5%;
+   padding-right: 2.5%;
 }
 
 #konakt-text-container A:link {
-                                   color: #008080;
+  color: #008080;
 }
 
 #konakt-text-container A:visited {
-                                   color: #008080;
+   color: #008080;
 }
 
 #konakt-text-container A:hover {
-                                   color: #009999;
+   color: #009999;
 }
 
 #konakt-text-container p:nth-of-type(1) {
-                       padding-top: 1%;
+   padding-top: 1%;
 }
 
 #konakt-text-container img{
-                       padding-right: 5%;
-                       padding-bottom: 5%;
+   padding-right: 5%;
+   padding-bottom: 5%;
 }
 
-#uvod-text-container {
-       width: 1000px;
-       height: 200px;
-       margin: 5% 0% 0% 25%;
-       font-size: 130%;
-       box-sizing: border-box;
-}
-
-
-
+/*Site's bottom part.*/
 
 .footer-main {
-               background: #444444;
-               height: 300px;
-               color: white;
+   background: #444444;
+   height: 300px;
+   color: white;
 }
 
 .footer-upper {
@@ -219,16 +175,16 @@ body{
 }
 
 .footer-subdivisions A:link {
-               text-decoration: none;
-               color: #009999;
+   text-decoration: none;
+   color: #009999;
 }
 
 .footer-subdivisions A:visited{
-          color: #009999;
+  color: #009999;
 }
 
 .footer-subdivisions A:hover{
-        color: #008080;
+  color: #008080;
 }
 
 .footer-admin {
@@ -236,16 +192,14 @@ body{
 }
 
 #main3 {
-        color: white;
-        height: 50px;
-        background: #343434;
-        display: grid;
-        grid-template-columns: 1fr 1fr 2fr;
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
 }
 
 #main3 A:link {
-               text-decoration: none;
-               color: #009999;
+  text-decoration: none;
+  color: #009999;
 }
 
 #main3 A:visited{
@@ -256,35 +210,6 @@ body{
         color: #008080;
 }
 
-
-
-@media (max-width: 1200px) {
-   .hlavni-container h1 {font-size: 35px; }
-}
-
-@media (max-width: 800px) {
-   #uvod-text-container {margin-left: 15%; width: 75%; }
-}
-
-
-@media (max-width: 600px) {
-   #uvod-text-container {margin-left: 10%; width: 80%; }
-}
-
-@media (max-width: 500px) {
-   .hlavni-container {overflow: hidden; }
-}
-
-
-@media (max-width: 500px) {
-    #uvod-text-container {font-size: 110%; }
-}
-
-
-@media (max-width: 400px) {
-   #uvod-text-container {margin-left: 5%; width: 95%; }
-}
-
-@media (max-width: 350px) {
-   #uvod-text-container {margin-left: 1%; width: 99%; }
+@media (max-width: 450px) {
+  #hlavni-container-akce {display: block;}
 }
