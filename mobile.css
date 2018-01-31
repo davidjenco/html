@@ -28,7 +28,7 @@ body{
 }
 
 .main-divisor {
-  height: 50px;
+  height: 1.5rem;
   background: #343434;
 }
 
@@ -94,14 +94,15 @@ body{
    width: 90%;
    padding-left: 5%;
    box-sizing: border-box;
-   font-size: 170%;
+   font-size: 110%;
    margin-bottom: 10%;
+   text-align:
 }
 
 .hlavni-container h1 {
   padding-left: 5%;
   color: #008080;
-  font-size: 50px;
+  font-size: 30px;
   padding-top: 5%;
   margin: 0;
 }
