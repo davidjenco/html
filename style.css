@@ -23,6 +23,7 @@ body{
   height: 5rem;
   text-align: center;
   padding-top: 2rem;
+  box-sizing: border-box;
 }
 
 .main-divisor {
@@ -56,6 +57,9 @@ body{
   padding: 7.5% 15% 0% 15%;
 }
 
+.akce-image-container-mobile {
+  display: none;
+}
 
 .divisor {
   height: 10px;
@@ -76,9 +80,10 @@ body{
   grid-template-columns: 1fr 1fr;
   text-indent: 50px;
   overflow: hidden;
+  height: 500px;
 }
 
-/*Site's middle part in "Ůvod" section.*/
+/*Site's middle part in "Úvod" section.*/
 
 
 #hlavni-container-uvod{

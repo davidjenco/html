@@ -11,18 +11,20 @@ body{
 #main1{
   color: white;
   background: #343434;
-  height: 3rem;
+  /* height: 5rem; */
+  height: 20rem;
 }
 
 #main1-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  /*display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;*/
 }
 
 .main1-tags {
   height: 5rem;
   text-align: center;
   padding-top: 2rem;
+  box-sizing: border-box;
 }
 
 .main-divisor {
@@ -56,6 +58,10 @@ body{
   padding: 7.5% 15% 0% 15%;
 }
 
+.akce-image-container {
+  display: none;
+}
+
 
 .divisor {
   height: 10px;
@@ -72,8 +78,7 @@ body{
 
 
 #hlavni-container-akce{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+
   text-indent: 50px;
   overflow: hidden;
 }
@@ -82,24 +87,21 @@ body{
 
 
 #hlavni-container-uvod{
-  height: 500px;
+
 }
 
 #uvod-text-container {
-   width: 60%;
-   margin: 5% 0% 0% 20%;
-   font-size: 130%;
+   width: 90%;
+   padding-left: 5%;
    box-sizing: border-box;
-   text-indent: 50px;
+   font-size: 170%;
+   margin-bottom: 10%;
 }
 
 .hlavni-container h1 {
-  text-align: center;
+  padding-left: 5%;
   color: #008080;
   font-size: 50px;
-  font-weight: normal;
-  word-spacing: 10px;
-  letter-spacing: 5px;
   padding-top: 5%;
   margin: 0;
 }
@@ -116,11 +118,6 @@ body{
 .hlavni-container A:hover {
   color: #009999;
   text-decoration: underline;
-}
-
-.second-hlavni-container {
-  background: #343434;
-  color: white;
 }
 
 /*Site's middle part in "Kontakt" section.*/
