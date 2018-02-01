@@ -176,6 +176,10 @@ body{
   padding: 12.5% 0% 0% 20%;
 }
 
+.footer-thanks-mobile {
+  display: none;
+}
+
 .footer-subdivisions-thanks {
   padding: 6.25% 5% 0% 10%;
 }

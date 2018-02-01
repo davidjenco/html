@@ -12,7 +12,7 @@ body{
   color: white;
   background: #343434;
   /* height: 5rem; */
-  height: 20rem;
+  height: 14rem;
 }
 
 #main1-container {
@@ -21,7 +21,7 @@ body{
 }
 
 .main1-tags {
-  height: 5rem;
+  height: 3rem;
   text-align: center;
   padding-top: 2rem;
   box-sizing: border-box;
@@ -48,20 +48,17 @@ body{
 /*Site's middle part in "Akce" and "Galerie" section.*/
 
 .right  p {
-  text-indent: 50px;
-  padding: 7.5% 15% 0% 15%;
+  padding: 0% 5% 0% 5%;
 }
 
 
 .left  p {
-  text-indent: 50px;
-  padding: 7.5% 15% 0% 15%;
+  padding: 0% 5% 0% 5%;
 }
 
 .akce-image-container {
   display: none;
 }
-
 
 .divisor {
   height: 10px;
@@ -74,27 +71,26 @@ body{
 
 .images-sied-by-side {
    display: block;
+   width: 100%;
+   margin-bottom: 5%;
  }
 
 
 #hlavni-container-akce{
-
-  text-indent: 50px;
-  overflow: hidden;
+  font-size: 100%;
 }
 
 /*Site's middle part in "Ůvod" section.*/
 
 
 #hlavni-container-uvod{
-
 }
 
 #uvod-text-container {
    width: 90%;
    padding-left: 5%;
    box-sizing: border-box;
-   font-size: 110%;
+   font-size: 100%;
    margin-bottom: 10%;
    text-align:
 }
@@ -154,22 +150,26 @@ body{
 
 .footer-main {
    background: #444444;
-   height: 300px;
+   height: 710.250px;
    color: white;
 }
 
 .footer-upper {
   display: grid;
-  grid-template-columns: 1fr 1fr 2fr;
+  grid-template-columns: 1fr;
   overflow: hidden;
 }
 
 .footer-subdivisions {
-  padding: 12.5% 0% 0% 20%;
+  padding: 12.5% 0% 0% 5%;
+}
+
+.footer-thanks-classic {
+  display: none;
 }
 
 .footer-subdivisions-thanks {
-  padding: 6.25% 5% 0% 10%;
+  padding: 6.25% 5% 0% 5%;
 }
 
 .footer-subdivisions A:link {
@@ -186,13 +186,15 @@ body{
 }
 
 .footer-admin {
-  padding: 3.5% 0% 0% 20%;
+  padding: 7% 0% 0% 10%;
 }
 
 #main3 {
   color: white;
   display: grid;
-  grid-template-columns: 1fr 1fr 2fr;
+  grid-template-columns: 1fr 1fr;
+  height: 50px;
+  font-size: 15px;
 }
 
 #main3 A:link {
