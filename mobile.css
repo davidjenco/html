@@ -7,23 +7,41 @@ body{
   font-family: sans-serif;
 }
 
-
-#main1{
-  color: white;
+.main1-mobile-container {
+  height: 2.5rem;
+  width: 100%;
   background: #343434;
-  /* height: 5rem; */
-  height: 14rem;
 }
 
-#main1-container {
-  /*display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;*/
+.main1{
+  width: 17.5%;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+.main1-container {
+  height: 0;
+  width: 300%;
+  transform: translateX(-66%)!important;
+  background: #343434;
+  overflow: hidden;
+  transition: height 1s;
+  transform: translateY(0%);
+}
+
+.main1-container-after-click {
+  height: 10rem;
+}
+
+#menu-picture {
+  display: block;
+  padding-left: 20%;
 }
 
 .main1-tags {
-  height: 3rem;
+  height: 2.25rem;
   text-align: center;
-  padding-top: 2rem;
   box-sizing: border-box;
 }
 
@@ -119,31 +137,16 @@ body{
 
 /*Site's middle part in "Kontakt" section.*/
 
-#konakt-text-container{
-   font-size: 130%;
-   padding-left: 5%;
-   padding-right: 2.5%;
+.kontakt-main-container {
+  font-size: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
-#konakt-text-container A:link {
-  color: #008080;
-}
-
-#konakt-text-container A:visited {
-   color: #008080;
-}
-
-#konakt-text-container A:hover {
-   color: #009999;
-}
-
-#konakt-text-container p:nth-of-type(1) {
-   padding-top: 1%;
-}
-
-#konakt-text-container img{
-   padding-right: 5%;
-   padding-bottom: 5%;
+.kontakt-container-grid {
+  /* display: grid;
+  grid-template-columns: 1fr 2fr 8fr; */
+  padding-top: 2%;
 }
 
 /*Site's bottom part.*/
