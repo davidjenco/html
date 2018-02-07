@@ -14,6 +14,10 @@ body{
   height: 5rem;
 }
 
+.menu-mobile-version {
+  display: none;
+}
+
 .main1-container {
   display: grid;
   grid-template-columns: 3fr 1fr 1fr 1fr 1fr 3fr;

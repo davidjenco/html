@@ -8,26 +8,27 @@ body{
 }
 
 .main1-mobile-container {
-  height: 2.5rem;
-  width: 100%;
+  height: 3rem;
   background: #343434;
 }
 
+.menu-desktop-version {
+  display: none;
+}
+
 .main1{
-  width: 17.5%;
-  position: absolute;
-  top: 0px;
-  right: 0px;
+  padding-left: 85%;
 }
 
 .main1-container {
   height: 0;
-  width: 300%;
-  transform: translateX(-66%)!important;
   background: #343434;
+  transition: height 0.3s;
   overflow: hidden;
-  transition: height 1s;
-  transform: translateY(0%);
+}
+
+.main1-tags-parents {
+  padding-right: 35%;
 }
 
 .main1-container-after-click {
@@ -35,14 +36,14 @@ body{
 }
 
 #menu-picture {
+  padding-top: 7.5%;
   display: block;
-  padding-left: 20%;
 }
 
 .main1-tags {
   height: 2.25rem;
-  text-align: center;
   box-sizing: border-box;
+  padding-left: 15%;
 }
 
 .main-divisor {
