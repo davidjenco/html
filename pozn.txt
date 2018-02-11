@@ -1,4 +1,3 @@
 Zarovnat footer-admin
-Vyřešit Akce/Galerie
 Rozšířené Akce v menu  (plánované...)
 

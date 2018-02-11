@@ -215,6 +215,23 @@ body{
         color: #008080;
 }
 
-@media (max-width: 450px) {
-  #hlavni-container-akce {display: block;}
+@media (max-width: 1650px) {
+  .images-sied-by-side {width: 100%;}
+}
+
+@media (max-width: 1250px) {
+  .akce-image-container {
+    display: none;
+  }
+  .akce-image-container-mobile {
+    display: block;
+  }
+  #hlavni-container-akce{
+    display: block;
+    height: auto;
+  }
+  .images-sied-by-side {
+    width: 80%;
+    padding-left: 11%;
+  }
 }
