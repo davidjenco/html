@@ -195,6 +195,34 @@ body{
   padding: 7% 0% 0% 10%;
 }
 
+#ig-image {
+  margin-left: 5%;
+}
+
+.social-network-hover {
+  display: none;
+}
+
+.social-network-link {
+  display: inline;
+}
+
+#fb-link:hover .social-network-hover {
+  display: inline;
+}
+
+#fb-link:hover .social-network-link {
+  display: none;
+}
+
+#ig-link:hover .social-network-hover {
+  display: inline;
+}
+
+#ig-link:hover .social-network-link {
+  display: none;
+}
+
 #main3 {
   color: white;
   display: grid;

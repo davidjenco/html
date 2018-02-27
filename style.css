@@ -173,7 +173,8 @@ body{
 }
 
 .footer-subdivisions {
-  padding: 12.5% 0% 0% 20%;
+  margin: 10% 0% 0% 15%;
+  box-sizing: border-box;
 }
 
 .footer-thanks-mobile {
@@ -181,7 +182,8 @@ body{
 }
 
 .footer-subdivisions-thanks {
-  padding: 6.25% 5% 0% 10%;
+  margin: 5% 5% 0% 7.5%;
+  box-sizing: border-box;
 }
 
 .footer-subdivisions A:link {
@@ -198,7 +200,35 @@ body{
 }
 
 .footer-admin {
-  padding: 3.5% 0% 0% 20%;
+  padding: 3.5% 0% 0% 15%;
+}
+
+#ig-image {
+  margin-left: 5%;
+}
+
+.social-network-hover {
+  display: none;
+}
+
+.social-network-link {
+  display: inline;
+}
+
+#fb-link:hover .social-network-hover {
+  display: inline;
+}
+
+#fb-link:hover .social-network-link {
+  display: none;
+}
+
+#ig-link:hover .social-network-hover {
+  display: inline;
+}
+
+#ig-link:hover .social-network-link {
+  display: none;
 }
 
 #main3 {
