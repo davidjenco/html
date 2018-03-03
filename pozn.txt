@@ -1,3 +1,7 @@
-Zarovnat footer-admin
+Vyřešit footer (celé mřížka, no padding)
 Rozšířené Akce v menu  (plánované...)
-
+Další členové v kontaktech
+Hover na menu položky (ztmavit)
+Archiv ?
+Logo v mainu, upravit obrázek
+Center align mobile view kontaktů
