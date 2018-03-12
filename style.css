@@ -38,6 +38,10 @@ body{
   box-sizing: border-box;
 }
 
+.main-tags-parent:hover {
+  background: #232323;
+}
+
 .main-divisor {
   height: 50px;
   background: #343434;
@@ -168,22 +172,20 @@ body{
 
 .footer-upper {
   display: grid;
-  grid-template-columns: 1fr 1fr 2fr;
-  overflow: hidden;
+  grid-template-columns: 0.15fr 1fr 1fr 2fr 0.15fr;
 }
 
 .footer-subdivisions {
-  margin: 10% 0% 0% 15%;
-  box-sizing: border-box;
+  margin: 10% 0% 0% 0%;
+  margin-right: 5%;
+}
+
+.footer-subdivisions-thanks {
+  margin: 5% 0% 0% 0%;
 }
 
 .footer-thanks-mobile {
   display: none;
-}
-
-.footer-subdivisions-thanks {
-  margin: 5% 5% 0% 7.5%;
-  box-sizing: border-box;
 }
 
 .footer-subdivisions A:link {
@@ -197,10 +199,6 @@ body{
 
 .footer-subdivisions A:hover{
   color: #008080;
-}
-
-.footer-admin {
-  padding: 3.5% 0% 0% 15%;
 }
 
 #ig-image {
@@ -231,10 +229,14 @@ body{
   display: none;
 }
 
+.footer-admin {
+  padding-top: 15px;
+}
+
 #main3 {
   color: white;
   display: grid;
-  grid-template-columns: 1fr 1fr 2fr;
+  grid-template-columns: 0.15fr 1fr 1fr 2fr 0.15fr;
 }
 
 #main3 A:link {

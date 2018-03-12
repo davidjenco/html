@@ -101,7 +101,7 @@ body{
   font-size: 100%;
 }
 
-/*Site's middle part in "Å®vod" section.*/
+/*Site's middle part in "Úvod" section.*/
 
 
 #hlavni-container-uvod{
@@ -113,7 +113,6 @@ body{
    box-sizing: border-box;
    font-size: 100%;
    margin-bottom: 10%;
-   text-align:
 }
 
 .hlavni-container h1 {
@@ -144,11 +143,10 @@ body{
   font-size: 100%;
   padding-left: 5%;
   padding-right: 5%;
+  text-align: center;
 }
 
 .kontakt-container-grid {
-  /* display: grid;
-  grid-template-columns: 1fr 2fr 8fr; */
   padding-top: 2%;
 }
 
@@ -163,7 +161,6 @@ body{
 .footer-upper {
   display: grid;
   grid-template-columns: 1fr;
-  overflow: hidden;
 }
 
 .footer-subdivisions {
@@ -189,10 +186,6 @@ body{
 
 .footer-subdivisions A:hover{
   color: #008080;
-}
-
-.footer-admin {
-  padding: 7% 0% 0% 10%;
 }
 
 #ig-image {
@@ -223,10 +216,15 @@ body{
   display: none;
 }
 
+.footer-admin {
+  padding-left:10%;
+  padding-top: 15px;
+}
+
 #main3 {
   color: white;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 0fr 1fr 1fr 0fr 0fr;
   height: 50px;
   font-size: 15px;
 }

@@ -1,7 +1,5 @@
-VyÅ™eÅ¡it footer (celÃ© mÅ™Ã­Å¾ka, no padding)
-RozÅ¡Ã­Å™enÃ© Akce v menu  (plÃ¡novanÃ©...)
-DalÅ¡Ã­ ÄlenovÃ© v kontaktech
-Hover na menu poloÅ¾ky (ztmavit)
+Rozšíøené Akce v menu  (plánované...)
+Další èlenové v kontaktech
 Archiv ?
-Logo v mainu, upravit obrÃ¡zek
-Center align mobile view kontaktÅ¯
+Komprimovat obrázky
+Jiná galerie
