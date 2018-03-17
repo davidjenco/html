@@ -77,6 +77,28 @@ body{
   padding: 0% 5% 0% 5%;
 }
 
+.hlavni-container h2 {
+  color: #008080;
+  font-weight: normal;
+  padding-left: 5%;
+  margin: 0;
+  display: inline;
+}
+
+.hlavni-container h2:link {
+  color: #008080;
+  text-decoration: none;
+}
+
+.hlavni-container h2:visited {
+  color: #008080;
+}
+
+.hlavni-container h2:hover {
+  color: #006c6c;
+  text-decoration: underline;
+}
+
 .akce-image-container {
   display: none;
 }
