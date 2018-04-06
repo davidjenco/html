@@ -28,11 +28,11 @@ body{
 }
 
 .main1-container-after-click {
-  height: 13rem;
+  height: 16rem;
 }
 
 #menu-picture {
-  padding-top: 7.5%;
+  padding-top: 4px;
   display: block;
 }
 
@@ -121,6 +121,49 @@ body{
 
 #hlavni-container-akce{
   font-size: 100%;
+}
+
+.gallery-main h1 {
+  color: #008080;
+  margin: 2% 0% 2.5% 5%;
+}
+
+.gallery-subcontainer {
+  margin: 2% 5% 0% 5%;
+}
+
+.gallery-subcontainer img {
+  padding: 5px;
+  width: 180px;
+  transition: 1s;
+  filter: contrast(100%);
+}
+
+.gallery-subcontainer img:hover {
+  filter: contrast(150%);
+  transform: scale(1.1);
+}
+
+.hlavni-container-galerie {
+  overflow: hidden;
+}
+
+.hlavni-container-galerie h3 {
+  font-size: 30px;
+  margin: 2% 0% 0% 5%;
+  color: #008080;
+}
+
+.gallery-container img {
+  margin: 5% 0% 0% 5%;
+  width: 70%;
+  transition: 1s;
+  filter: contrast(100%);
+}
+
+.gallery-container img:hover {
+  filter: contrast(150%);
+  transform: scale(1.1);
 }
 
 /*Site's middle part in "Úvod" section.*/
