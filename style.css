@@ -131,29 +131,62 @@ body{
   font-size: 120%;
 }
 
-.galery-main {
+#hlavni-container-akce h1 {
+  font-size: 40px;
+}
+
+.gallery-main {
   height: 600px;
 }
 
-.galery-main h1 {
+.gallery-main h1 {
   text-align: center;
   color: #008080;
   margin: 2% 0% 2.5% 0%;
 }
 
-.galery-subcontainer {
+.gallery-subcontainer {
   margin: 2% 5% 0% 5%;
 }
 
-.galery-subcontainer img {
+.gallery-subcontainer img {
   padding: 5px;
   width: 230px;
   transition: 1s;
-  filter: grayscale(100%);
+  filter: contrast(100%);
 }
 
-.galery-subcontainer img:hover {
-  filter: grayscale(0%);
+.gallery-subcontainer img:hover {
+  filter: contrast(150%);
+  transform: scale(1.1);
+}
+
+.hlavni-container-galerie {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 650px !important;
+}
+
+.hlavni-container-galerie h3 {
+  font-size: 30px;
+  text-align: left;
+  margin: 0% 0% 0% 4%;
+  color: #008080;
+  font-weight: normal;
+}
+
+.gallery-container {
+  margin: 2% 0% 0% 0%;
+}
+
+.gallery-container img {
+  margin: 5% 0% 0% 10%;
+  transition: 1s;
+  filter: contrast(100%);
+}
+
+.gallery-container img:hover {
+  filter: contrast(150%);
   transform: scale(1.1);
 }
 
