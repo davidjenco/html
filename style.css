@@ -23,18 +23,6 @@ body{
   grid-template-columns: 5fr 1fr 1fr 1fr 1fr 1fr 0fr;
 }
 
-/* #logo-picture-hover {
-  display: none;
-}
-
-.main1-container #logo-picture:hover {
-  display: none;
-}
-
-.main1-container #logo-picture-hover:hover {
-  display: block;
-} */
-
 #menu-picture {
   display: none;
 }
@@ -68,7 +56,7 @@ body{
   color: #009999;
 }
 
-/*Site's middle part in "Akce" and "Galerie" section.*/
+/*Site's middle part in "Akce" section.*/
 
 .right  p {
   text-indent: 50px;
@@ -103,7 +91,6 @@ body{
   text-decoration: underline;
 }
 
-
 .akce-image-container-mobile {
   display: none;
 }
@@ -121,7 +108,6 @@ body{
    display: block;
  }
 
-
 #hlavni-container-akce{
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -135,10 +121,12 @@ body{
   font-size: 40px;
 }
 
+/*Site's middle part in "Galerie" section.*/
+
 .gallery-main h1 {
   text-align: center;
   color: #008080;
-  margin: 2% 0% 2.5% 0%;
+  margin: 2% 0% 0% 0%;
 }
 
 .gallery-subcontainer {
@@ -159,7 +147,7 @@ body{
 .hlavni-container-galerie {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  height: 650px;
+  /* height: 650px; */
   text-indent: 50px;
   overflow: hidden;
 }
@@ -167,7 +155,7 @@ body{
 .hlavni-container-galerie h3 {
   font-size: 30px;
   text-align: left;
-  margin: 2% 0% 0% 4.75%;
+  margin: 5% 0% 0% 4.75%;
   color: #008080;
   font-weight: normal;
 }
@@ -231,7 +219,7 @@ body{
 }
 
 /*Site's middle part in "Kontakt" section.*/
-
+/*
 .kontakt-main-container {
   font-size: 130%;
 }
@@ -244,6 +232,45 @@ body{
 
 .kontakt-right-subcontainer {
   padding-left: 5%;
+} */
+
+.kontakt-grid-container {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 70px;
+  grid-row-gap: 110px;
+  padding: 5% 10% 5% 10%;
+  font-weight: bold;
+}
+
+.kontakt-item > div {
+  padding: 3%;
+}
+
+.kontakt-grid-container > div {
+  height: 130px;
+  display: grid;
+  grid-template-columns: auto 250px;
+}
+
+.kontakt-grid-container h1 {
+  margin: 0 0 15px 0;
+  font-size: 20px;
+  color: #008080;
+}
+
+.kontakt-grid-container p {
+  margin: 0 0 7px 0;
+}
+
+.kontakt-grid-container img {
+  padding: 3%;
+  margin-right: 20px;
+}
+
+.kontakt-item-span {
+  font-size: 15px;
 }
 
 /*Site's bottom part.*/
@@ -357,10 +384,13 @@ body{
     width: 80%;
     padding-left: 11%;
   }
-  .hlavni-container-galerie {
-    height: 400px;
-  }
   .hlavni-container-galerie h3 {
     font-size: 22.5px;
+  }
+}
+
+@media (max-width: 1350px) {
+  .kontakt-grid-container {
+    grid-template-columns: 1fr 1fr;
   }
 }

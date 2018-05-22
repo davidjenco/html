@@ -66,7 +66,7 @@ body{
   color: #009999;
 }
 
-/*Site's middle part in "Akce" and "Galerie" section.*/
+/*Site's middle part in "Akce" section.*/
 
 .right  p {
   padding: 0% 5% 0% 5%;
@@ -114,22 +114,25 @@ body{
 
 .images-sied-by-side {
    display: block;
-   width: 100%;
+   width: 90%;
    margin-bottom: 5%;
+   padding-left: 5%;
  }
-
 
 #hlavni-container-akce{
   font-size: 100%;
 }
 
+/*Site's middle part in "Galerie" section.*/
+
 .gallery-main h1 {
   color: #008080;
   margin: 2% 0% 2.5% 5%;
+  font-size: 20px;
 }
 
 .gallery-subcontainer {
-  margin: 2% 5% 0% 5%;
+  margin: 2% 5% 0% 4%;
 }
 
 .gallery-subcontainer img {
@@ -149,13 +152,13 @@ body{
 }
 
 .hlavni-container-galerie h3 {
-  font-size: 30px;
-  margin: 2% 0% 0% 5%;
+  font-size: 20px;
+  margin: 4% 0% 0% 5%;
   color: #008080;
 }
 
 .gallery-container img {
-  margin: 5% 0% 0% 5%;
+  margin: 2% 0% 0% 5%;
   width: 70%;
   transition: 1s;
   filter: contrast(100%);
@@ -204,7 +207,7 @@ body{
 
 /*Site's middle part in "Kontakt" section.*/
 
-.kontakt-main-container {
+/* .kontakt-main-container {
   font-size: 100%;
   padding-left: 5%;
   padding-right: 5%;
@@ -213,6 +216,38 @@ body{
 
 .kontakt-container-grid {
   padding-top: 2%;
+} */
+
+.kontakt-grid-container {
+  padding: 5% 50% 5% 4.5%;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.kontakt-item > div {
+  padding: 3%;
+}
+
+.kontakt-grid-container > div {
+  height: 130px;
+  display: grid;
+  grid-template-columns: auto 250px;
+  margin-bottom: 55px;
+}
+
+.kontakt-grid-container h1 {
+  margin: 0 0 15px 0;
+  font-size: 20px;
+  color: #008080;
+}
+
+.kontakt-grid-container p {
+  margin: 0 0 7px 0;
+}
+
+.kontakt-grid-container img {
+  padding: 3%;
+  margin-right: 20px;
 }
 
 /*Site's bottom part.*/
@@ -254,7 +289,11 @@ body{
 }
 
 #ig-image {
-  margin-left: 5%;
+  margin-left: 2.5%;
+}
+
+.footer-imgs {
+  width: 30px;
 }
 
 .social-network-hover {
@@ -312,5 +351,22 @@ body{
   #main3 {display: block;}
   .footer-admin {
     padding: 5% 0% 0% 5%;
+  }
+  .kontakt-grid-container img {
+    width: 80px;
+    padding: 5% 0% 5% 0%;
+  }
+  .kontakt-grid-container h1 {
+    font-size: 17px;
+    margin: 0 0 5px 0;
+  }
+  .kontakt-item-span {
+    font-size: 12px;
+  }
+  .kontakt-grid-container > div {
+    grid-template-columns: auto 200px;
+  }
+  .kontakt-grid-container p {
+    margin: 0 0 2px 0;
   }
 }
