@@ -137,6 +137,7 @@ body{
   padding: 5px;
   transition: 1s;
   filter: contrast(100%);
+  width: 250px;
 }
 
 .gallery-subcontainer img:hover {
@@ -219,20 +220,6 @@ body{
 }
 
 /*Site's middle part in "Kontakt" section.*/
-/*
-.kontakt-main-container {
-  font-size: 130%;
-}
-
-.kontakt-container-grid {
-  display: grid;
-  grid-template-columns: 1fr 2fr 8fr;
-  padding-top: 2%;
-}
-
-.kontakt-right-subcontainer {
-  padding-left: 5%;
-} */
 
 .kontakt-grid-container {
   display: grid;

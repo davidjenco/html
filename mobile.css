@@ -207,17 +207,6 @@ body{
 
 /*Site's middle part in "Kontakt" section.*/
 
-/* .kontakt-main-container {
-  font-size: 100%;
-  padding-left: 5%;
-  padding-right: 5%;
-  text-align: center;
-}
-
-.kontakt-container-grid {
-  padding-top: 2%;
-} */
-
 .kontakt-grid-container {
   padding: 5% 50% 5% 4.5%;
   font-weight: bold;
@@ -228,11 +217,15 @@ body{
   padding: 3%;
 }
 
-.kontakt-grid-container > div {
+.kontakt-item {
   height: 130px;
   display: grid;
   grid-template-columns: auto 250px;
   margin-bottom: 55px;
+}
+
+#kontakt-item-the-last {
+  margin-bottom: 0px;
 }
 
 .kontakt-grid-container h1 {
@@ -246,15 +239,17 @@ body{
 }
 
 .kontakt-grid-container img {
-  padding: 3%;
+  /* padding: 3%; */
   margin-right: 20px;
+  width: 80px;
+  padding: 15% 0% 5% 0%;
 }
 
 /*Site's bottom part.*/
 
 .footer-main {
    background: #444444;
-   height: 675px;
+   height: 550px;
    color: white;
 }
 
@@ -264,7 +259,7 @@ body{
 }
 
 .footer-subdivisions {
-  padding: 12.5% 0% 0% 5%;
+  padding: 20px 0% 0% 5%;
 }
 
 .footer-thanks-classic {
@@ -272,7 +267,7 @@ body{
 }
 
 .footer-subdivisions-thanks {
-  padding: 6.25% 5% 0% 5%;
+  padding: 20px 5% 0% 5%;
 }
 
 .footer-subdivisions A:link {
@@ -353,8 +348,8 @@ body{
     padding: 5% 0% 0% 5%;
   }
   .kontakt-grid-container img {
-    width: 80px;
-    padding: 5% 0% 5% 0%;
+    width: 60px;
+    padding: 17.5% 0% 5% 0%;
   }
   .kontakt-grid-container h1 {
     font-size: 17px;
@@ -365,6 +360,7 @@ body{
   }
   .kontakt-grid-container > div {
     grid-template-columns: auto 200px;
+    height: 100px;
   }
   .kontakt-grid-container p {
     margin: 0 0 2px 0;
